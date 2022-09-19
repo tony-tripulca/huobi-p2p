@@ -149,6 +149,8 @@ app.get("/p2p-ads", async function (req, res) {
     signatureMethod: "HmacSHA256",
     signatureVersion: 2.1,
     timestamp: timestamp.toISOString().substring(0, 19),
+    coin: "USDT",
+    tradeType: "SELL",
   };
 
   let query = [];
