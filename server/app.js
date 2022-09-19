@@ -140,7 +140,7 @@ app.get("/p2p-orders", async function (req, res) {
 app.get("/p2p-ads", async function (req, res) {
   let protocol = "https://";
   let host = "otc-api.trygofast.com";
-  let endpoint = `/api/public/ad-get`;
+  let endpoint = `/v1/api/public/ad-get`;
 
   let timestamp = new Date();
 
